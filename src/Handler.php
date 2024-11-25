@@ -32,5 +32,6 @@ class Handler
                 call_user_func([$controllerInstance, $this->function], $args);
             }
         }
+        //TODO: Handle not existing controller or function
     }
 }

@@ -38,4 +38,6 @@ $router->addRoute(new Route('GET', '/exercises/{exerciseId}/fields', [Controller
 $router->addRoute(new Route('POST', '/exercises', [ExercisesController::class, 'create']));
 $router->addRoute(new Route('POST', '/exercises/{exerciseId}/status', [ExercisesController::class, 'updateStatus']));
 
+
+
 $router->matchRoute();
